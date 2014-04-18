@@ -11,3 +11,5 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'omniauth'
 gem 'omniauth-delivery-food'
+
+gem 'delivery'
