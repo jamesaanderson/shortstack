@@ -13,3 +13,7 @@ gem 'omniauth'
 gem 'omniauth-delivery-food'
 
 gem 'delivery'
+
+group :production do
+  gem 'rails_12factor'
+end
