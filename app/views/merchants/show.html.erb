@@ -1,0 +1,7 @@
+<div class='merchant'>
+  <h1><%= @merchant.merchant.summary.name %></h1>
+
+  <% @menu.menu.each do |m| %>
+    <h2><%= m.name %></h2>
+  <% end %>
+</div>

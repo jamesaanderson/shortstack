@@ -1,6 +1,8 @@
 <% @search.merchants.each do |m| %>
   <div class='merchant'>
-    <h3><%= m.summary.name %></h3>
+    <%= link_to merchant_path(m.id) do %>
+      <h3><%= m.summary.name %></h3>
+    <% end %>
 
     <% if m.summary.cuisines %>
       <p><%= m.summary.cuisines.join(', ') %></p>
